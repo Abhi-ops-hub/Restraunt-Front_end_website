@@ -2,60 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Urban_Fork</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Remix Icon -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-
-    <!-- Your CSS File -->
-    <link rel="stylesheet" href="style.css">
+    <title>Food Website</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
-
 <body>
+    <header>
+        <div class="container">
+            <h1>🍔 Food Restaurant</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <nav>
-        <div class="nav_header">
-            <div class="logo_nav_logo">
-                <a href="#">
-                    Urban <span>Fork</span>
-                </a>
+    <section id="home" class="hero">
+        <h2>Welcome to Our Food Place</h2>
+        <button onclick="showMenu()">View Menu</button>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="food-grid">
+            <div class="food-item">
+                <img src="img/pizza.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>₹299</p>
             </div>
-
-            <div class="nav_menu_button" id="menu-button">
-                <span><i class="ri-menu-line"></i></span>
+            <div class="food-item">
+                <img src="img/burger.jpg" alt="Burger">
+                <h3>Burger</h3>
+                <p>₹149</p>
+            </div>
+            <div class="food-item">
+                <img src="img/sandwich.jpg" alt="Sandwich">
+                <h3>Sandwich</h3>
+                <p>₹129</p>
             </div>
         </div>
+    </section>
 
-        <ul class="nav_links" id="nav_links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Special</a></li>
-            <li><a href="#">Chef</a></li>
-            <li><a href="#">Client</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="nav_button">
-            <button class="btn"><i class="ri-shopping-bag-fill"></i></button>
-        </div>
-    </nav>
-    <section class="section_container header_container" id="home">
-      <div class="header_images">
-        <img src="delicious-salmon-poke-bowl-with-rice-vegetables-transparent-background.png" alt="Header image">
-      </div>
-      <div class="header_content">
-        <h1>Come N' Meet The <span>Indian Taste</span></h1>
-        <p class="section_description">
-            From sizzling flavors to beautifully crafted dishes, we turn every meal into a celebration. Step in hungry, leave inspired
-            Craving something unforgettable?
-            Urban Fork brings you mouth-watering flavors, fresh ingredients, and a vibe you’ll love coming back to. Taste the difference. Feel the flavor.
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We make tasty food delivered fast!</p>
+    </section>
 
-        </p>
-        <div class="header_button">
-            <button class="btn">Get Started</button>
-        </div>
-      </div>
-   </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>📞 +91 98765 43210 | 📧 info@foodsite.com</p>
+    </section>
 
-
+    <script src="app.js"></script>
 </body>
 </html>
