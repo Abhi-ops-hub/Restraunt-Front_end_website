@@ -101,7 +101,7 @@ Images are dynamically loaded using Unsplash.
 ## 💻 How to Run the Project
 
 1. Download or Clone the repository:
-   git clone https://github.com/your-username/maroon-bistro.git
+   git clone https://github.com/Abhi-ops-hub/Restraunt-Front_end_website.git
 
 2. Open the project folder.
 
